@@ -2,6 +2,8 @@ module github.com/free5gc/amf
 
 go 1.14
 
+replace github.com/free5gc/openapi v1.0.4 => github.com/MaazKhaleeq/openapi v1.0.8
+
 require (
 	git.cs.nctu.edu.tw/calee/sctp v1.1.0
 	github.com/antihax/optional v1.0.0
